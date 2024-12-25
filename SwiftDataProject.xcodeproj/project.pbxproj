@@ -6,17 +6,27 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BF1BB72D2D1BE63F00D81919 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF1BB7262D1BE63F00D81919 /* Preview Assets.xcassets */; };
+		BF1BB72E2D1BE63F00D81919 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF1BB7282D1BE63F00D81919 /* Assets.xcassets */; };
+		BF1BB72F2D1BE63F00D81919 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1BB7292D1BE63F00D81919 /* ContentView.swift */; };
+		BF1BB7302D1BE63F00D81919 /* SwiftDataProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1BB72B2D1BE63F00D81919 /* SwiftDataProjectApp.swift */; };
+		BF1BB7322D1BE74000D81919 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1BB7312D1BE74000D81919 /* User.swift */; };
+		BF1BB7342D1BE96100D81919 /* EditUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1BB7332D1BE96100D81919 /* EditUserView.swift */; };
+		BF1BB7362D1BF24B00D81919 /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1BB7352D1BF24B00D81919 /* UsersView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		BF1BB7142D1BE63400D81919 /* SwiftDataProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDataProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF1BB7262D1BE63F00D81919 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF1BB7282D1BE63F00D81919 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF1BB7292D1BE63F00D81919 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BF1BB72A2D1BE63F00D81919 /* SwiftDataProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftDataProject.entitlements; sourceTree = "<group>"; };
+		BF1BB72B2D1BE63F00D81919 /* SwiftDataProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataProjectApp.swift; sourceTree = "<group>"; };
+		BF1BB7312D1BE74000D81919 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		BF1BB7332D1BE96100D81919 /* EditUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUserView.swift; sourceTree = "<group>"; };
+		BF1BB7352D1BF24B00D81919 /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		BF1BB7162D1BE63400D81919 /* SwiftDataProject */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SwiftDataProject;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BF1BB7112D1BE63400D81919 /* Frameworks */ = {
@@ -32,7 +42,7 @@
 		BF1BB70B2D1BE63400D81919 = {
 			isa = PBXGroup;
 			children = (
-				BF1BB7162D1BE63400D81919 /* SwiftDataProject */,
+				BF1BB72C2D1BE63F00D81919 /* SwiftDataProject */,
 				BF1BB7152D1BE63400D81919 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +53,29 @@
 				BF1BB7142D1BE63400D81919 /* SwiftDataProject.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BF1BB7272D1BE63F00D81919 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BF1BB7262D1BE63F00D81919 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BF1BB72C2D1BE63F00D81919 /* SwiftDataProject */ = {
+			isa = PBXGroup;
+			children = (
+				BF1BB7292D1BE63F00D81919 /* ContentView.swift */,
+				BF1BB7332D1BE96100D81919 /* EditUserView.swift */,
+				BF1BB7352D1BF24B00D81919 /* UsersView.swift */,
+				BF1BB7312D1BE74000D81919 /* User.swift */,
+				BF1BB72A2D1BE63F00D81919 /* SwiftDataProject.entitlements */,
+				BF1BB72B2D1BE63F00D81919 /* SwiftDataProjectApp.swift */,
+				BF1BB7282D1BE63F00D81919 /* Assets.xcassets */,
+				BF1BB7272D1BE63F00D81919 /* Preview Content */,
+			);
+			path = SwiftDataProject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +92,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				BF1BB7162D1BE63400D81919 /* SwiftDataProject */,
 			);
 			name = SwiftDataProject;
 			packageProductDependencies = (
@@ -109,6 +139,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF1BB72D2D1BE63F00D81919 /* Preview Assets.xcassets in Resources */,
+				BF1BB72E2D1BE63F00D81919 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF1BB7362D1BF24B00D81919 /* UsersView.swift in Sources */,
+				BF1BB72F2D1BE63F00D81919 /* ContentView.swift in Sources */,
+				BF1BB7342D1BE96100D81919 /* EditUserView.swift in Sources */,
+				BF1BB7302D1BE63F00D81919 /* SwiftDataProjectApp.swift in Sources */,
+				BF1BB7322D1BE74000D81919 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
